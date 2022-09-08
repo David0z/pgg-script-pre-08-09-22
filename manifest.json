@@ -1,0 +1,12 @@
+{
+  "name": "pgg-script",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "none",
+  "content_scripts": [
+    {
+      "js": ["init.js"],
+      "matches": ["*://sklep.pgg.pl/"]
+    }
+  ]
+}
